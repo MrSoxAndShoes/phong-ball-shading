@@ -17,7 +17,7 @@ unsigned short random;
 
 main()
 {
-	float a, b, c, l0, l1, l2, ln1, n0, n1, n2, p, q, r = 128, s, t, v[12][3];
+	float a, b, c, l0, l1, l2, ln, ln1, n0, n1, n2, p, q, r = 128, s, t, v[12][3];
 	int n;
 
 	/* Put EGA in hi-res graphics mode & initialize palette. */
@@ -75,7 +75,7 @@ main()
 		s = y-c;
 		n1 = s / r;
 		ln1 = l1 * n1;
-		sx = r*r - s*s;
+		s = r*r - s*s;
 		x_max = b + a * sqrt(s);
 		x_min = 2 * b - x_max;
 
