@@ -1,0 +1,2 @@
+# phong-ball-shading
+The beach ball picture shown in photo 1 was generated on a 20-MHz Compaq Deskpro 386/20 with an EGA graphics card. The C code for this simple graphics example is presented in listing 1. The program uses the Phong shading technique to compute the intensities and colors of the surface of the ball. The idea behind this technique is to compute normal (perpendicular) vectors to each point on the surface using an interpolation scheme and then apply the shading model at each pixel displayed.
