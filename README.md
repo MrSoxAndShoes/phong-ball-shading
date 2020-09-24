@@ -37,4 +37,4 @@ Removing the coprocessor instruction stream from the data bus-using the address 
 
 **[Listing 2](phong-ball-listing-2.txt)**: Sample of compiler output for the 80387.
 
-**[Listing 3](phong-ball-listing-3.txt)**: Sample of compiler output for the Weitek 1 167.
+**[Listing 3](phong-ball-listing-3.txt)**: Sample of compiler output for the Weitek 1167.
