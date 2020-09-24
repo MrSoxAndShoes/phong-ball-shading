@@ -1,7 +1,10 @@
 # Avoiding Coprocessor Bottlenecks, Mauro Bonomi
 
 **BYTE, March 1988, Vol. 13, No. 3, Pages 200, 202, & 204**
+
 [https://archive.org/details/byte-magazine-1988-03](https://archive.org/details/byte-magazine-1988-03)
+
+[https://archive.org/stream/byte-magazine-1988-03/byte-magazine-1988-03_djvu.txt](https://archive.org/stream/byte-magazine-1988-03/byte-magazine-1988-03_djvu.txt)
 
 **Compiling: An Example**
 
