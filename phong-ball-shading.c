@@ -1,11 +1,17 @@
 /*
  * As noted in the article, this code was written for the
- * MetaWare High C Compiler. - EA 9/23/2020
+ * MetaWare High C 1.4 Compiler. - EA 9/23/2020
  */
 
 #include <math.h>
 #include <stdio.h>
 #include <time.h>
+
+/* 9/23/2020 EA: Declared functions so the code at least compiles with High C 3.0 */
+#define CLK_TCK 100
+void video_int(const int vector, ...);
+void draw_dot();
+void reg_reset();
 
 clock_t start, stop;
 float pi;
