@@ -2,7 +2,7 @@ In the March 1988 issue, BYTE produced a in-depth section on math coprocessors f
 
 <img src="BYTE-198803-cover.jpg" width="320px" alt="BYTE, March 1988, Vol. 13, No. 3." />
 
-[**BYTE, March 1988, Vol. 13, No. 3.**](BYTE-198803-cover.jpg)
+[**BYTE, March 1988, Vol. 13, No. 3.**](https://archive.org/details/byte-magazine-1988-03)
 
 The article "Avoidng Coprocessor Bottlenecks" by Mauro Bonomi included a C program (PDF page 228) to demonstrate the improvements a math coprocessor can make to render a beach ball using Phong shading techniques in EGA (640x350) resolution. As noted in the article, it takes 8 minutes to render the image on a Compaq Deskpro 386/20 (20-MHz) using floating-point emulation, 28 seconds with the addition of the 80387 coprocessor, and finally, 10 seconds with the Weitek 1167.
 
