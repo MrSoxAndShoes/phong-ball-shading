@@ -9,7 +9,7 @@ The beach ball picture shown in photo 1 was generated on a 20-MHz Compaq Deskpro
 
 <img src="phong-ball-shading.png" width="200" alt="The beach ball" />
 
-[**Photo1:**](phong-ball-shading.png) *The beach ball.*
+[**Photo 1:**](phong-ball-shading.png) *The beach ball.*
 
 The program involves a large number of floating-point computations on single-precision numbers, including the four basic instructions (add, subtract, multiply, and divide), as well as special functions (sine, cosine, and square root). The C program was compiled with a MetaWare High C compiler that supports both the Weitek 1167 and the 80387 coprocessor. The compiler generates either 80387 or Weitek 1167 object code. Users choose the desired coprocessor by setting a special switch on the command line when giving the compile command.
 
