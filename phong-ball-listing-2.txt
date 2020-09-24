@@ -1,0 +1,14 @@
+                    ; s=r*r-s*s
+0214 d9 46 c8       fld   dword ptr -56[bp]
+0217 d8 c8          fsqr
+0219 d9 46 c4       fld   dword ptr -60[bp]
+021c d8 c8          fsqr
+021e de e9          fsub
+0220 d9 5e c4       fstp  dword ptr -60[bp]
+                    ; x_max=b+a*sqrt(s)
+0223 d9 46 c4       fld   dword ptr -60[bp]
+0226 d9 fa          fsqrt
+0228 d8 4e fc       fmul  dword ptr -4[bp]
+022b d8 46 f8       fadd  dword ptr -8[bp]
+022e e8 ----e       call  _mwtrunc
+0231 a3 0054r       mov   @FONGBALL+84, ax

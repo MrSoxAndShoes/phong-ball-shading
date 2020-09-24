@@ -1,0 +1,18 @@
+                         ; s=r*r-s*s;
+0388 64:a2 0719          wload  .S fr2,fr25     ; mov al,fs:[]
+038c 64:a2 081a          wmul   .S fr2,fr2      ; mov al,fs:[]
+0390 64:a2 0b7a          wmul   .S fr26,fr26    ; mov al,fs:[]
+0394 64:a2 107a          wsub   .S fr26,fr2     ; mov al,fs:[]
+                         ; x_max=b+a*sqrt(s)
+0398 64:a2 471a          wcvtsd .S fr2,fr26     ; mov al,fs:[]
+039c 66:64:ff 36 0018    push   .S fr2          ; push fs:[]
+03a2 66:64:ff 36 0c1c    push   .S fr3          ; push fs:[]
+03a8 e8 ----e            call sqrt
+03ab 64:a2 45a1          wcvtsd .S fr4,fr13     ; mov al,fs:[]
+03af 64:a2 45a8          wcvtsd .S fr6,fr12     ; mov al,fs:[]
+03b3 64:a2 889a          wmul   .D fr2,fr6      ; mov al,fs:[]
+03b7 64:a2 8098          wadd   .D fr2,fr4      ; mov al,fs:[]
+03bb 64:a2 bc1a          wfix   .D fr2,fr2      ; mov al,fs:[]
+03bf 66:64:a1 8c18       wstor  .D fr2,eax      ; mov eax,fs:[]
+03c4 66:ef a4 c2 10      shld edx,eax,16
+03c9 a3 0054r            mov @FONG1167+72,ax
