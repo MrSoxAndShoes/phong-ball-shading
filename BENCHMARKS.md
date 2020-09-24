@@ -1,4 +1,4 @@
-| Compiler                       | IBM PC/XT 5160 | 80386 20 MHz  | 80386 33 MHz   | 80386 RapidCAD | AMD K5 233 MHz |
+| Compiler                       | IBM PC/XT 5160 | 80386 20-MHz  | 80386 33-MHz   | 80386 RapidCAD | AMD K5 233-MHz |
 | ---                            | ---:           | ---:          | ---:           | ---:           | ---:           |
 | Turbo C 1.0 (Em)               |                |               |                |                |                |
 | Turbo C 1.0 (87)               |                |               |                |                |                |
@@ -22,3 +22,5 @@
 | Microsoft QuickC 2.5 (87)      |                |               |                |                |                |
 | Microsoft QuickPascal 1.0 (Em) |                |               |                |                |                |
 | Microsoft QuickPascal 1.0 (87) |                |               |                |                |                |
+
+Results are in minutes (e.g. 146.65 is 2 hours, 26 minutes, 39 seconds).
