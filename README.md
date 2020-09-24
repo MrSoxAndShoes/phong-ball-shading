@@ -7,9 +7,9 @@
 
 The beach ball picture shown in photo 1 was generated on a 20-MHz Compaq Deskpro 386/20 with an EGA graphics card. The C code for this simple graphics example is presented in listing 1. The program uses the Phong shading technique to compute the intensities and colors of the surface of the ball. The idea behind this technique is to compute normal (perpendicular) vectors to each point on the surface using an interpolation scheme and then apply the shading model at each pixel displayed.
 
-![The beach ball](https://github.com/MrSoxAndShoes/phong-ball-shading/blob/master/phong-ball-shading.png)
+<img src="phong-ball-shading.png" width="200" alt="The beach ball" />
 
-**Photo1:** *The beach ball.*
+[**Photo1:**](phong-ball-shading.png) *The beach ball.*
 
 The program involves a large number of floating-point computations on single-precision numbers, including the four basic instructions (add, subtract, multiply, and divide), as well as special functions (sine, cosine, and square root). The C program was compiled with a MetaWare High C compiler that supports both the Weitek 1167 and the 80387 coprocessor. The compiler generates either 80387 or Weitek 1167 object code. Users choose the desired coprocessor by setting a special switch on the command line when giving the compile command.
 
@@ -33,6 +33,8 @@ Accelerating floating-point performance boils down to more than just clock rates
 
 Removing the coprocessor instruction stream from the data bus-using the address bus to transmit op codes – leaves more room for passing operands. This strategy is one way to increase data bus bandwidth and improve processor/coprocessor interaction. •
 
-**Listing 1: The C code to generate the beach ball. (Code written by Bruce Holloway of Weitek.)**
-**Listing 2: Sample of compiler output for the 80387.**
-**Listing 3: Sample of compiler output for the Weitek 1 167.**
+**[Listing 1](phong-ball-shading.c)**: The C code to generate the beach ball. (Code written by Bruce Holloway of Weitek.)
+
+**[Listing 2](phong-ball-listing-2.txt)**: Sample of compiler output for the 80387.
+
+**[Listing 3](phong-ball-listing-3.txt)**: Sample of compiler output for the Weitek 1 167.
