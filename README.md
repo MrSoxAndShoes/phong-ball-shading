@@ -20,6 +20,10 @@ The goals here are to:
 
 3) Clean up the C listing for compatibility with other C compilers;
 
-4) Translate the C listing to Turbo Pascal;
+4) Update from EGA to VGA;
 
-5) Use different compilers, languages, and harware to produce [benchmarks](BENCHMARKS.md).
+5) Translate the C listing to Turbo Pascal;
+
+6) Create algorithmic versions in C and Pascal to run on machines without EGA capability;
+
+7) Use different compilers, languages, and hardware to produce [benchmarks](BENCHMARKS.md).
